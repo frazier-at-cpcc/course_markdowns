@@ -1,0 +1,758 @@
+# Administering Cisco Unified Communications 12.X/14
+
+**Product ID**: 32381
+**Category ID**: nan
+**Modality**: 6
+**Active**: True
+**Language**: en
+**Product Code**: ACUCC
+**Vendor Code**: CH
+**Vendor Name**: Current Technologies CLC
+**URL**: [Course Link](https://www.fastlaneus.com/course/currenttechnologies-acucc)
+
+## Objective
+Upon completing this course, the student will be able to meet these objectives:
+
+
+
+- Introduction to Voice Gateways
+- VoIP Call Legs
+- Dial Plan Implementation
+- Configuring Cisco Unified Communication Manager 12.5
+- Deploying Cisco VCUBE
+- Cisco Unified Border Element Implementation
+- Cisco Unified Border Element High Availability
+- Cisco Unified Border Element Security
+- Cisco Unified Border Element Monitoring and Troubleshooting
+
+## Essentials
+- An understanding of IP networking concepts (CCNA-level)
+- An understanding of traditional digital PBX systems
+- An understanding of basic telephony concepts
+- Business-level competence using the Windows operating system
+- Business-level competence using different Internet browsers
+
+## Audience
+- Network Video Engineer
+- Voice/UC/Collaboration/Communications Engineer
+- Collaboration Tools Engineer
+- Collaboration Sales/Systems Engineer
+
+## Outline
+Module 0: Introductions
+
+
+- Introductions
+- Lesson 1: Introductions
+- Topic List
+- Learner Skills and Knowledge
+- Course Goal
+- Webex Basics
+- Cisco Icons and Symbols
+- Introductions
+- Lesson 2: Understanding Cisco Endpoints
+- Cisco Software Support Service (SWSS)
+- Business Edition 4000 Overview
+- Business Edition 6000
+- BE4000 Appliance at a Glance
+- Cisco Collaboration Architecture
+- Locating Documentation (1)
+- Module Summary
+Module 1: Tools for Managing UC Collaboration 12.x / 14.0
+
+
+- Module Introduction
+- Topic List
+- Lesson 1: Cisco Prime Collaboration Deployment Manager Overview 12.x / 14.0
+- Complete Lifecycle Management (1)
+- Cisco Prime Collaboration Assurance – Features (1)
+- Cisco Prime Collaboration Assurance and Analytics Business - Analytics Features
+- Cisco Prime Collaboration Provisioning
+- Automated System Provisioning
+- Packaging - Standard and Advanced
+- Summary
+- Lesson 2: Utilizing the Bulk Administration Tool (BAT)
+- Overview of Cisco Unified Communications Manager BAT
+- Activate Bulk Provisioning Service
+- Start, Stop and Restart Bulk Provisioning Service
+- Cisco Unified Communications Manager BAT Procedures (1)
+- Phone Template Settings
+- Add a Line to the Template (1)
+- Add a Second Line to the Template
+- Download the bat.xlt
+- Open Bat.xlt in Excel
+- Select the Tab for item the you want to Create
+- Choose Fields to be Imported
+- Enter Phone Information and Export Bat File
+- Upload Exported File from Excel
+- Select File and Specify Target and Type
+- Validate Uploaded Phones
+- Insert Phones
+- Specify Insert Phone Details
+- Confirm Phone Import with Job Scheduler
+- Lesson 3: Migrating Phones
+- Export Utility
+- Migrating Existing Phone Configuration to a Different Phone Model
+- Migrating Phones – Phone Template (1)
+- Lesson 4: Self Provisioning
+- Configuring Self-Provisioning
+- Configure the Universal Device Templates (1)
+- Lesson 5: OS Command Line Tools
+- Access the CLl
+- Reset Application Administrator Password via CLI
+- Reset OS Platform Administrator Password
+- Create Additional OS Users
+- Set the WebAPP Session Timeout
+- Check the CUCM IP Information
+- Ping
+- Check, Stop, and Restart, Services
+- Lesson 6: Loading Cisco Option Packages (COP)
+- Downloading Cisco Option Files (COP)
+- Use SFTP Server to Serve Files
+- Loading a COP File into CUCM
+- Install COP File
+- Module Summary
+Module 2: Cisco Unified Communication Manager 12.x / 14.0
+
+
+- Module Introduction
+- Topic List
+- Lesson 1: Understanding Smart Licensing
+- Cisco Smart Software Licensing
+- Smart Account
+- Create a Smart Account
+- Virtual Account
+- Deployment Options
+- Ordering in Cisco Commerce Workspace (CCW)
+- Migrating/Upgrading Classic Licenses to Smart
+- Registering a Device on CSSM
+- Token Creation in Cisco Smart Software Manager
+- License Management: CSSM (1)
+- Smart Licensing in CUCM 12.x and above
+- CUCM: Evaluation Mode
+- CUCM: Register (Transport Setting)
+- CUCM: Register Product (with Token)
+- CSSM: Create Token (if not already available)
+- CUCM: License Management (Registered, Authorized)
+- CSSM: License Management (In Compliance)
+- CSSM: License Management (Out of Compliance)
+- Cisco Smart Software Licensing Management
+- License Management on Subscriber Node
+- Lesson 2: Cisco Unified Communication Manager Overview
+- Overview of the Cisco Unified Computing System Solution
+- Cisco Unified Communications Manager High Availability
+- Database Replication and User-Facing Features
+- Intracluster Communication
+- Lesson 3: Understanding Administrator Interfaces
+- Cisco Unified Communications Manager Administrator Interfaces
+- Cisco Unified Communications Manager Serviceability
+- Cisco Unified Communications Manager Services
+- Cisco Unified Communications Manager Operating System
+- Lesson 4: Deploying Endpoints and Users
+- Comparison of Endpoints Supported by Cisco Unified Communications Manager
+- Endpoint Configuration Elements
+- Cisco Unified Communications Manager User Accounts (1)
+- Cisco Unified Communications Manager User Management Options
+- End Users
+- Manual End User Configuration Page
+- Cisco Unified Communications Manager LDAP Support
+- LDAP Integration: Synchronization (1)
+- LDAP Integration: Authentication (1)
+- LDAP Integration Features: Attribute Mapping (1)
+- End-User Data Storage Locations
+- LDAP Integration Feature: Filters (1)
+- LDAP Synchronization Configuration Procedure
+- Activate Cisco DirSync Service
+- Configure the LDAP System
+- Configure the LDAP Directory (1)
+- Verify LDAP Synchronization
+- LDAP Synchronization User Attributes
+- LDAP Authentication Configuration
+- LDAP Authentication Verification
+- LDAP Custom Filter
+- LDAP Custom Filter Verification
+- Lesson 5: Implementing Endpoints and Features
+- IP Phone Registration Process Overview
+- Network Time Protocol
+- Special Functions Used by Cisco IP Phones
+- Cisco SCCP IP Phone Startup Process
+- VLAN Discovery Process
+- IP Phone DHCP Configuration
+- DHCP Server Feature Support Overview
+- TFTP Device Configuration XML File
+- SCCP IP Phone Registration
+- Cisco SIP Phone Startup Process
+- Cisco Unified Communications Manager Network Configuration
+- Service Activation
+- DHCP Server
+- DHCP on Cisco Unified Communications Manager Express
+- IP Phone Configuration Requirements in Cisco Unified Communications Manager
+- Cisco Unified Communications Manager Group
+- Device Pools
+- Templates
+- IP Phone Configuration
+- Manual Cisco IP Phone Configuration
+- Add the IP Phone
+- Configure SCCP IP Phone Settings
+- Configure Directory Number
+- Apply the Configuration
+- Lesson 6: Implementing Endpoint Addressing and Call Routing
+- Endpoint Addressing
+- Endpoint Addressing by Numbers
+- Endpoint Addressing by URIs
+- Cisco Unified Communications Manager Call Routing Overview
+- Sources of Call-Routing Requests (Entities Requiring Call-Routing Table Lookups
+- Call-Routing Table Entries (Call-Routing Targets)
+- Cisco Unified Communications Call-Routing Logic
+- Digit-by-Digit Analysis of Numbers Not Received In a Single Block
+- Variable-Length Patterns, Overlapping Patterns, and Urgent Priority
+- Overlaps and Interdigit Timeout
+- Urgent Priority
+- Lesson 7: Implementing Calling Privileges
+- Calling Privileges Overview
+- Calling-Privilege Requirement PSTN Example
+- Calling-Privileges Configuration Elements
+- Partitions and CSSs
+- Partition  and CSS 
+- Analogy: Locks and Key Rings
+- Partitions and CSS Example
+- Partition and CSS Considerations
+- Phones Have a Device CSS and Line CSS
+- Example with IP Phone Line CSS and Device CSS
+- Partition and CSS Configuration
+- Summary
+- Lesson 8: MoH in Cisco Unified Communications Manager
+- Music on Hold
+- MOH Support in Cisco Unified Communications Manager
+- MOH Sources
+- MOH Server Capacity
+- Unicast and Multicast MOH Characteristics
+- Multicast MOH
+- MOH Configuration
+- Media Resource Access Control Overview
+- Media Resource Access Control Characteristics
+- Components of Media Resource Access Control
+- Media Resource Access Control Example
+- Conference Bridge Selection
+- Conference Bridge Selection Configuration
+- Media Resource Access Control Configuration
+- Lesson 9: Implementing Conference Bridges
+- Cisco Unified Communications Manager Audio Conference Bridge
+- Cisco Unified Communications Manager Software Audio Conference Bridge
+- Lesson 10: Unified Communication Manager with Cisco Meeting Server Configuration
+- Cisco Collaboration Preferred Architecture
+- Virtualization
+- Cisco Unified Communications on the Cisco Unified Computing System (UCS)
+- Cisco Business Edition 7000 (BE7000)
+- Core Applications
+- Collaboration Endpoints
+- Ad Hoc Conference with CMS
+- Configuration required on the Cisco Unified Communications Manager
+- Upload The CUCM Certificate
+- Configuring a Non-Secure SIP Trunk
+- Destination Information for the SIP Trunk
+- Creating a Conference Bridge for Cisco Meeting Server
+- CUCM Certificates for Cisco Meeting Server
+- CUCM Media Resource Groups
+- Media Resource Group Lists
+- Applying Media Resource Group Lists
+- Domain Based Routing
+- Numeric Dialing
+- Route Groups and Route Lists (1)
+- Summary
+- Lesson 11: Understanding Cisco Unified Communications Manager CAR Analysis and Reporting Tool Reports
+- Cisco Unified Communications Manager CAR Tool Overview
+- Activate Cisco Unified Communications Manager CAR Services
+- CDR Service Parameters
+- Cisco Unified Communications Manager CAR Tool User Types
+- CDR and CMR Architecture
+- Cisco Unified Communications Manager CAR Tool User Overview (1)
+- Configure the Mail Parameters
+- Lesson 12: Understanding Cisco Unified Communications Manager Reports
+- Cisco Unified Communications Manager CAR Tool User Overview
+- Cisco Unified Communications Manager Reports Overview
+- Cisco Unified Reporting (1)
+- Cisco Unified Reporting Status Messages and Icons
+- Lesson 13: Using Troubleshooting and Monitoring Tools
+- Overview of Troubleshooting and Monitoring Tools
+- Cisco Unified Communications Manager Dialed Number Analyzer
+- Cisco Unified Communications Manager Dialed Number Analyzer Output
+- Route Plan Report
+- Cisco Unified RTMT Overview
+- Service Parameters
+- Cisco Unified RTMT System Requirements
+- Enable a User for Cisco Unified RTMT Login
+- Cisco Unified RTMT Menu (1)
+- Monitor the System with Cisco Unified RTMT
+- Performance
+- Alert Notification Configuration
+- Custom Alerts on Performance Counters
+- Cisco Unified RTMT Trace and Log Central
+- Lesson 14: Understanding the Disaster Recovery System
+- Disaster Recovery System Overview
+- Disaster Recovery System Architecture
+- Disaster Recovery System Menu
+- Disaster Recovery System Components
+- Back Up Cisco Unified Communications Solutions
+- Scheduler
+- Backup Status
+- Restore Cisco Unified Communications Solutions
+- Restore Wizard: Type of Restore (1)
+- Module Summary
+Module 3: Cisco Unified Gateways
+
+
+- Module Introductions
+- Topic List
+- Lesson 1: Implementing PSTN Access Using MGCP Gateways
+- MGCP Gateway Implementation Overview
+- Endpoint Identifiers
+- MGCP Gateway Support in Cisco Unified Communications Manager
+- Cisco Unified Communications Manager Configuration Server
+- PRI Backhaul
+- MGCP Gateway Implementation Considerations
+- Implement an MGCP Gateway in Cisco Unified Communications Manager
+- Integrate Cisco IOS MGCP Gateways with Cisco Unified Communications Manager
+- Cisco IOS MGCP Gateway Configuration Steps
+- Cisco IOS MGCP Gateway Configuration Example
+- Configure Cisco IOS MGCP Gateway Fractional PRIs
+- Path Selection
+- Path Selection Example
+- Path Selection Configuration Elements in Cisco Unified Communications Manager
+- Route Group Functionality
+- Local Route Groups
+- Multiple Local Route Groups
+- Local Route-Group Functionality
+- Route List Configuration
+- Route Pattern Configuration Example
+- Digit Manipulation Requirements with Multiple Paths
+- Digit Manipulation Configuration Elements (1)
+- Digit Manipulation Flow Example (Outgoing Call to PSTN)
+- Digit Manipulation Flow Example (Incoming Call from PSTN)
+- Summary
+- Lesson 2: Describing Cisco SIP Gateways
+- SIP Gateway Overview
+- SIP Gateway Configuration Example
+- Dial Peer Overview
+- Main Components of VoIP and POTS Dial Peers (1)
+- Inbound Dial Peer Selection
+- Inbound Dial Peer Selection Example
+- Outbound Dial Peer Selection
+- Outbound Dial Peer Selection Example
+- Main Digit Manipulation Mechanisms
+- Summary
+- Lesson 3: Troubleshooting Common Gateway
+- Cisco IOS MGCP Gateway Communications
+- Cisco IOS MGCP Gateway and Endpoint
+- Cisco IOS MGCP Gateway Configuration Elements
+- Cisco IOS MGCP Gateway Registration
+- Cisco IOS MGCP Gateway Registration Issues
+- Verify Cisco IOS MGCP Gateway Status (1)
+- Cisco IOS MGCP Gateway Monitoring Commands
+- Cisco IOS MGCP Gateway Unsuccessful Registration
+- Cisco IOS SIP Trunk Communications
+- Summary
+- Module Summary
+Module 4: Integrating Cisco Unity Connection 12.x / 14.0
+
+
+- Module Introductions
+- Topic List
+- Lesson 1: Unity Connection Overview
+- Single-Site and Multisite Deployment Model
+- Cisco Unity Connection Administration (1)
+- Cisco Unity Connection Integration Options
+- Cisco Unity Connection SIP Integration
+- Create a Sip Trunk Security Profile
+- Create a Sip Trunk (1)
+- Voice Mail Pilot and Voice Mail Profile
+- Route Pattern
+- Unity Connection SIP Integration
+- Unity Connection SIP Integration – New Port Group
+- Cisco Unity Connection Integration Troubleshooting Tools (1)
+- Common Mistakes with SIP Integrations
+- Call Forward Options
+- Unity Connection Call Handlers
+- Call Handler Example
+- Caller Input
+- Caller Input Analysis (1)
+- Call Handler Templates
+- Default Call Handler Flow
+- Operator Call Handler
+- Operator Not Available
+- Goodbye Call Handler
+- Directory Handler Overview
+- Directory Handler - Search Results Behavior
+- Interview Handler
+- Cisco Unity Connection Call Routing (1)
+- Default Call-Routing Behavior
+- Direct Call Routing
+- Forwarded Call Routing
+- Cisco Unity Connection Dial Plan
+- Message Aging Policy and Mailbox Quotas
+- Message Aging Policy
+- Mailbox Quotas
+- Roles
+- Lesson 2: Creating Users
+- User-Creation Options
+- Understanding Users (1)
+- Preparing to Configure Users (1)
+- Configuring Authentication Rules (1)
+- Configuring Class of Service (1)
+- Configuring Schedules and Holidays (1)
+- Cisco Unity Connection User Templates
+- Cisco Unity Connection End Users
+- Voice Mailbox
+- Configuring User Templates (1)
+- Configuring Users
+- Add a New User
+- Edit Users
+- Import End Users from Cisco Unified Communications Manager
+- Imported User
+- Import Users from LDAP
+- LDAP Directory
+- Bulk Import Users
+- Reviewing Users
+- User Features
+- User Features - Edit Password Settings (1)
+- User Features - Roles
+- User Features - MWI
+- Transfer Rules and Greetings
+- User Features – Transfer Rules
+- User Features – Message Settings
+- User Features – Caller Input
+- User Features – Edit Mailbox
+- Notification Devices (1)
+- User Features - Alternate Extensions
+- User Features - Alternate Names
+- Lesson 3: Designing an Audiotext Application
+- Audiotext Application (Auto Attendant) Configuration (1)
+- Greeting Administrator (1)
+- Cisco Unity Connection Reports
+- Unity Connection – Report Configuration
+- Unity Connection – Cluster Management
+- Port Monitor Configuration
+- Port Monitor -RTMT
+- Port Monitor
+- Unified Messaging Terminology
+- Single Inbox High-Level Architecture
+- Single Inbox Functionality
+- Unified Messaging Benefits
+- Module Summary
+Module 5: Integrating Cisco Unified IM and Presence 12.x / 14.0
+
+
+- Module Introductions
+- Topic List
+- Lesson 1: Cisco Unified Communications Manager IM and Presence Service Overview
+- Cisco Unified Communications Manager IM and Presence Service Overview
+- OVA Template for Cisco Unified Communications IM and Presence
+- Cisco Unified Communications IM and Presence Cluster
+- Cisco Jabber Overview (1)
+- Service Discovery
+- Quality of Service
+- Cisco Jabber Port Usage (1)
+- Summary
+- Lesson 2: Describing Cisco Unified Communications IM and Presence Components and Communication Flows
+- Cisco Jabber Information Flow in Deskphone Mode
+- Cisco Jabber Information Flow in Softphone Mode
+- Cisco Jabber in Phone-Only Mode
+- Cisco Jabber and Voicemail
+- Cisco Jabber and Conferencing
+- Integration with LDAP for Cisco Jabber
+- Cisco Jabber Login Flow
+- Access for Cisco Jabber without VPN
+- Summary
+- Lesson 3: Integrating Cisco Unified Communications IM and Presence
+- Set Up Cisco Unified Communications Manager for Presence
+- Checklist for Cisco Unified Communications Manager Setup
+- Cisco Jabber UC Services
+- Implementing Cisco Unified Communications IM and Presence
+- Checklist for Cisco Unified Communications IM and Presence Setup
+- Cisco Unified Communications IM and Presence Services
+- Cisco Jabber Service Discovery
+- Service Discovery: Domain
+- Service Discovery: Operating Mode (1)
+- Cisco UDS SRV Record
+- SRV Records
+- DNS SRV Record Priorities and Weights
+- Troubleshoot DNS SRV Entries
+- Methods of Installation
+- Create a Custom Installer (1)
+- Summary
+- Lesson 4: Configuring Cisco Unified Communications IM and Presence Features and Implementing Cisco Jabber
+- Cisco Jabber in Phone-Only Mode
+- Configure Cisco Jabber in Softphone Mode
+- Cisco Jabber UC Services (1)
+- Visual Voicemail Interface for Cisco Jabber
+- Cisco Jabber in Softphone Mode
+- Cisco Jabber Account Options
+- Connection Status
+- LDAP Profile Test
+- Voicemail Profile Test
+- Enable End Users and Devices for CTI
+- Cisco Jabber in Deskphone Mode
+- Summary
+- Lesson 5: Implementing Jabber on CUCM
+- Configure Cisco Unified Communications Manager for Cisco Jabber
+- Step 1: Automate the Jabber Client Configuration with SRV Records
+- Step 2: Define the Cisco Unified Communications Services
+- Step 3: Create a Service Profile
+- Step 4: End-User Configuration (1)
+- Step 5: Create Cisco Unified CSF Device (1)
+- Step 6: Associate the Cisco Unified CSF Device to the End User
+- Step 7: Define a SIP Trunk
+- Configure the Cisco Unified Communications Manager IM and Presence Server
+- Choose the SIP Publish Trunk
+- Set the Presence Gateway for Cisco Unified Communications Manager
+- Lesson 6: Verifying and Troubleshooting Tools for Cisco Unified Presence Components
+- System Dashboard
+- Cisco Unified IM and Presence Reporting
+- System Troubleshooter (1)
+- Cisco Jabber Connection Status
+- End User Cannot Log into Cisco Jabber
+- Trace Filter Settings
+- Summary
+- Module Summary
+Module 6: Cisco Unified Communications Mobile and Remote Access (MRA) 12.x / 14.0
+
+
+- Module Introductions
+- Topic List
+- Lesson 1: Cisco Expressway Series Deployment Options
+- Cisco Expressway
+- Terminology (1)
+- VCS vs Expressway
+- Expressway X8.9 Local Registration Support
+- Mobile and Remote Collaboration with Expressway
+- Cisco Jabber Remote Access Options
+- What can a Jabber client do with Expressway?
+- Fixed Endpoint Support
+- Expressway Firewall Traversal Basics
+- Cisco Expressway Licensing
+- Expressway Rich Media Session Licenses
+- Lesson 2: Implementing Unified Communications Mobile and Remote Access
+- Unified Communications Mobile and Remote Access
+- Unified Communications Mobile and Remote Access Components Overview
+- Firewall Traversal
+- Firewall Port Details
+- Expressway & Jabber Service Discovery
+- Unified Communications Mobile and Remote Access DNS Requirements
+- Unified Communications Mobile and Remote Access Certificate Requirements
+- HTTPS Reverse Proxy
+- Registering Cisco Jabber to Cisco Unified Communications Manager
+- Unified Communications Mobile and Remote Access Prerequisites
+- Unified Communications Mobile and Remote Access Configuration Procedure
+- Lesson 3: Expressway Server Certificates
+- Expressway Certs and Clustering
+- Expressway Certificate Signing Request (CSR)
+- Cert Subject Alternative Name (SAN) requirements
+- Expressway Trusted CA Certificates (1)
+- Module Summary
+Module 7: Cisco Emergency Responder (CER) 12.x / 14.0
+
+
+- Module Introductions
+- Topic List
+- Lesson 1: Cisco Emergency Responder (CER)
+- E9-1-1 defined
+- Legislation and Regulation
+- ANI & ALI Defined
+- PS-ALI accounts
+- Defining Phone Locations
+- E9-1-1 for VoIP
+- Using Ip Subnets
+- E911 with IP Telephony- What could go wrong?
+- E911 with Cisco Emergency Responder
+- 911 in Enterprise – Challenges
+- Preparation (One Time)
+- Local Notifications (Real - Time)
+- What is Cisco Emergency Responder?
+- Cisco Emergency Responder 12.x
+- CER Cluster
+- Clustering over the WAN
+- Integration with UC Manager
+- Locating Phones
+- Cisco ER in Operation: Endpoint Location Example
+- Lesson 2: Setup Cisco Unified Communications Manager
+- Create Phone Partition for Internal Phone
+- Create Phone Partition for E911
+- Create Phone Calling Search Space
+- Create Emergency Responder Calling Search Space
+- Create Emergency CTI Route – Primary 911
+- Add a Directory Number to the Primary CTI RP911
+- Create Emergency CTI Route - Secondary 912
+- Add a Directory Number to the Secondary CTI RP912
+- Create Emergency CTI Route – ELIN 913 (The destination of all incoming calls from the PSAP)
+- Add a Directory Number to the ELN Callback
+- Create Required CTI Ports for CER to Call Security (1)
+- Create a Cisco Unified Communications Manager Group for Cisco Emergency Responder
+- ELIN Numbers Emergency Calls and PSAP Callbacks
+- Create Route Patterns for ERLs (1)
+- Create Translation Patterns for ELINs
+- Create Translation Patterns for 9.911 / 911 (1)
+- Create Emergency Responder Cisco Unified Communications Manager User
+- Cisco Emergency Responder Configuration
+- Login into Emergency Responder
+- User Management
+- Server and Server Group Configuration
+- Telephony Settings
+- Identify Cisco Unified Communications Manager Clusters
+- Work with Emergency Responder Locations
+- Add Onsite Security Personnel
+- Default ERL Creation
+- Default ALI Information
+- Configuring IP Subnet-based ERLs
+- Emergency Responder Switch Configuration
+- Set Up SNMPv2
+- Set Up SNMPv3
+- Identify LAN Switches
+- Switch Port Configuration
+- Module Summary
+Module 8: Unified Contact Center Express (UCCX)
+
+
+- Module Introductions
+- Topic List
+- Lesson 1: Unified Contact Center Express (UCCX) Architecture
+- Cisco Unified CCX Primary Functions
+- Cisco Unified CCX Operating System and Browser Support
+- Cisco Unified CCX Environment
+- Cisco Unified CCX Deployment Models
+- Cisco Unified CCX Cluster Components
+- Single Server or First Node Server Setup
+- Cisco Unified CCX Administration
+- Cisco Unified Communications Manager Configuration Page (1)
+- System Parameters (1)
+- Language Management
+- Prompt Management (1)
+- Script Management
+- Document Management
+- Grammar Management
+- Application Management (1)
+- Cisco Unified CCX Subsystems
+- Cisco Unified Communications Manager Telephony Subsystem
+- RmCm Subsystem
+- Chat and Email Subsystem
+- Outbound Subsystem
+- Database Subsystem
+- Email Subsystem
+- Cisco Media Subsystem
+- MRCP ASR Subsystem
+- MRCP TTS Subsystem
+- Administration Tools
+- Plug-ins
+- User Management (1)
+- Real-Time Reporting
+- Supervisor and User Web Pages
+- Supervisor Web Page (1)
+- User Web Page
+- Cisco Finesse Administration
+- Cisco Finesse Administration Console
+- Serviceability and Maintenance Summaries
+- Cisco Unified CCX Serviceability
+- Control Center
+- Lesson 2: Introduction to Scripting
+- Cisco Unified CCX Script Editor Introduction
+- Installing the Cisco Unified CCX Script Editor
+- Knowing the Script Editor
+- Starting the Script Editor
+- Synchronize License with Cisco Unified CCX Engine
+- Cisco Unified CCX Script Editor Windows (1)
+- Script Management (1)
+- Debugging a Script
+- Understanding Debugging
+- Reactive or Non-Reactive Debugging
+- Running a Debug Session (1)
+- Cisco Unified CCX Agent
+- Cisco Unified CCX Supervisor
+- Resource Groups (1)
+- Skills (1)
+- Contact Service Queues
+- Teams
+- Finesse IP Phone Agent
+- Finesse IP Phone Agent Features
+- Finesse IP Phone Agent Interface (1)
+- Configuring Finesse IP Phone Agent (1)
+- Cisco Finesse
+- Sign in to Cisco Finesse
+- Finesse Agent Desktop (1)
+- Finesse Supervisor Desktop (1)
+- Agent Configuration (1)
+- Supervisor Configuration
+- Create Resource Groups
+- Create Skills
+- Configure Resources
+- Configure Contact Service Queues (1)
+- Configure Teams
+- Lesson 3: Using Cisco Unified CCX Reports
+- Cisco Unified CCX Reporting Introduction
+- Three Types of Reports
+- Historical Reporting User Configuration
+- Abandoned Rates
+- Handled/Abandoned/Dequeued Markings
+- Cisco Unified Intelligence Center
+- Cisco Unified Intelligence Center Introduction
+- Historical Reporting Configurations (1)
+- Commonly Used Terms
+- Accessing Cisco Unified Intelligence Center
+- Reports Drawer
+- Viewing a Report (1)
+- Saving a Report
+- Editing a Template
+- CSQ Activity Report Example
+- Module Summary
+Module 9: Troubleshooting
+
+
+- Module Introductions
+- Topic List
+- Lesson 1: Overview of Troubleshooting and Monitoring Tools
+- Cisco Unified Serviceability
+- Cisco Unified Communications Manager Traces
+- Trace Configuration Options
+- Trace Configuration
+- Cisco Unified Communications Manager Dialed Number Analyzer
+- Cisco Unified Communications Manager Dialed Number Analyzer Output
+- Instructor Demo: Route Plan Report
+- Cisco Unified RTMT
+- Cisco Unified RTMT Alert Central
+- Custom Alerts on Performance Counters
+- Cisco Unified RTMT Syslog Viewer
+- Cisco Unified RTMT Trace and Log Central (1)
+- Cisco Unified RTMT Performance Monitor and Data Logging
+- Cisco Unified Communications Manager Reporting Tool
+- Cisco IOS Troubleshooting Tools
+- Sniffer Traces
+- Lesson 2: Troubleshooting Common Gateway and Endpoint Registration Issues
+- Cisco IOS MGCP Gateway Communications
+- Cisco IOS MGCP Gateway and Endpoint
+- Cisco IOS MGCP Gateway Registration Issues
+- Verify Cisco IOS MGCP Gateway Status (1)
+- Cisco IOS MGCP Gateway Monitoring Commands
+- Cisco IOS H.323 Gateway and SIP Trunk Communications
+- Module Summary
+
+## Summary
+This is a 5-day hands-on one of a kind Cisco UC in-depth course takes student from initial endpoint configuration to a full solution deployment using all of the Cisco UC Components. Students will have extensive labs in which they will Administer and troubleshoot a Cisco 12.x / 14.0 UC Deployment.
+
+Participants will gain in-depth practical knowledge with exercises on administering and troubleshooting of all Cisco UC Components. 
+
+The software applications that are covered in this course include:
+
+
+
+- Cisco Unified Communications Manager (CUCM) 12.x / 14.0
+- Cisco Unified Communications Manager IM and Presence (IMP) 12.x / 14.0
+- Cisco Unity Connection 12.x / 14.0
+- Cisco Emergency Responder 12.x / 14.0
+- Cisco Paging Server 12.x / 14.0
+- Cisco Expressway (MRA) 12.x / 14.0
+- Cisco Unified Contact Center Express (UCCX) 12.x / 14.0
+- Cisco Meeting Server (CMS)
+
+## Course Duration
+5 days
+
+## Last Changed
+2024-05-10T16:38:16.000Z
